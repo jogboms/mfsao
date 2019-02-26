@@ -1,0 +1,11 @@
+name: mfsao
+description: My Flutter-specific analysis options
+version: 0.1.0
+homepage: https://www.github.com/jogboms/mfsao
+author: Jogboms <jeremiahogbomo@gmail.com>
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  pedantic: ^1.0.0
