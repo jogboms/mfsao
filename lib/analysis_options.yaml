@@ -7,10 +7,11 @@ analyzer:
   strong-mode:
     implicit-dynamic: false
   errors:
-    # treat missing required parameters as a warning (not a hint)
-    missing_required_param: warning
-    # treat missing returns as a warning (not a hint)
-    missing_return: warning
+    missing_required_param: error
+    missing_return: error
+    unused_import: error
+    unused_local_variable: error
+    dead_code: error
   exclude:
     - "bin/cache/**"
     # the following two are relative to the stocks example and the flutter package respectively
