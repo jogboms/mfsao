@@ -1,3 +1,7 @@
+## 1.0.0
+
+- Introduce null-safety support
+  
 ## 0.2.0
 
 - Introduce errors on

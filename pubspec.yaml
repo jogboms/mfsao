@@ -1,10 +1,11 @@
 name: mfsao
 description: My Flutter-specific analysis options
-version: 0.2.0
+version: 1.0.0
 homepage: https://www.github.com/jogboms/mfsao
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=2.0.0"
 
 dependencies:
-  pedantic: ^1.0.0
+  pedantic: ^1.11.0
