@@ -1,3 +1,9 @@
+## 2.0.0
+
+- Switch to `flutter_lints` as base
+- Introduce `implicit-casts: false`
+- Introduce `always_specify_types`, `sort_pub_dependencies` etc directly from the flutter repo
+
 ## 1.0.0
 
 - Introduce null-safety support
