@@ -1,6 +1,6 @@
 # MFSAO
 
-This package builds on the work from [Pedantic](https://github.com/dart-lang/pedantic) but tailored to my own needs.
+This package builds on the work from [Flutter Lints](https://pub.dev/packages/flutter_lints) but tailored to my own needs.
 
 ## Enabled Lints
 
@@ -11,10 +11,10 @@ To use those lints you can add a dependency in your `pubspec.yaml`:
 
 ```yaml
 dev_dependencies:
-  mfsao: "0.1.0"
+  mfsao: "3.0.0"
 ```
 
-and add an include in your `analysis_options.yaml`:
+and add in your `analysis_options.yaml`:
 
 ```yaml
 include: package:mfsao/analysis_options.yaml
